@@ -1,4 +1,6 @@
-# 2024-07-04
+# 2024-07-04 WordPress Core Blocks: Como aprovecharlos y expandirlos
+
+https://www.youtube.com/watch?v=NpUVrI92fHQ&list=PLIp4ychuQI3RkEMD-mefeCBh1gW-HMrBq&index=2
 
 > Como aprovechar al máximo los [Core Blocks](https://developer.wordpress.org/block-editor/reference-guides/core-blocks/) (revisando los que hay disponibles y cómo podemos expandirlos). Block Variations, Block Style Variations y filtros en cliente entre otras cosas
 
