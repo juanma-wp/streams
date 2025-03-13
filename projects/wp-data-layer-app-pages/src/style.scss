@@ -1,0 +1,52 @@
+.toplevel_page_wp-data-layer-app-pages #wpcontent {
+  background: #fff;
+  height: 1000px;
+}
+button .components-spinner {
+  width: 15px;
+  height: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.form-buttons {
+  display: flex;
+}
+.my-gutenberg-form .form-buttons {
+  margin-top: 20px;
+  margin-left: 1px;
+}
+.form-error {
+  color: #cc1818;
+}
+.form-buttons {
+  button {
+    margin-right: 4px;
+  }
+  .components-spinner {
+    margin-top: 0;
+  }
+}
+
+#wp-data-layer-app-pages {
+  max-width: 500px;
+  ul {
+    padding-left: 20px;
+    &,
+    & li {
+      list-style-type: disc;
+    }
+  }
+  .components-search-control__input {
+    height: 36px;
+    margin-left: 0;
+  }
+  .list-controls {
+    display: flex;
+    width: 100%;
+    .components-search-control {
+      flex-grow: 1;
+      margin-right: 8px;
+    }
+  }
+}
