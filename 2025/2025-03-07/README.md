@@ -1,4 +1,4 @@
-# 2025-03-17 - Primeros pasos con la Interactivity API
+# 2025-03-07 - Primeros pasos con la Interactivity API
 
 [![](./thumbnail.png)](https://youtube.com/live/9tbg0RfeFY8)
 
