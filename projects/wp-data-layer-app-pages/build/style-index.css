@@ -1,0 +1,59 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.toplevel_page_wp-data-layer-app-pages #wpcontent {
+  background: #fff;
+  height: 1000px;
+}
+
+button .components-spinner {
+  width: 15px;
+  height: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.form-buttons {
+  display: flex;
+}
+
+.my-gutenberg-form .form-buttons {
+  margin-top: 20px;
+  margin-left: 1px;
+}
+
+.form-error {
+  color: #cc1818;
+}
+
+.form-buttons button {
+  margin-right: 4px;
+}
+.form-buttons .components-spinner {
+  margin-top: 0;
+}
+
+#wp-data-layer-app-pages {
+  max-width: 500px;
+}
+#wp-data-layer-app-pages ul {
+  padding-left: 20px;
+}
+#wp-data-layer-app-pages ul, #wp-data-layer-app-pages ul li {
+  list-style-type: disc;
+}
+#wp-data-layer-app-pages .components-search-control__input {
+  height: 36px;
+  margin-left: 0;
+}
+#wp-data-layer-app-pages .list-controls {
+  display: flex;
+  width: 100%;
+}
+#wp-data-layer-app-pages .list-controls .components-search-control {
+  flex-grow: 1;
+  margin-right: 8px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
