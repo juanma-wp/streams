@@ -3,6 +3,7 @@ import { store as coreDataStore } from "@wordpress/core-data";
 import { PagesList } from "./PagesList";
 import { SearchControl } from "@wordpress/components";
 import { useState } from "@wordpress/element";
+import { ButtonCreatePage } from "./ButtonCreatePage";
 
 export const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -29,8 +30,13 @@ export const App = () => {
   );
   return (
     <div>
-      <SearchControl onChange={setSearchTerm} value={searchTerm} />
-      <PagesList hasResolved={hasResolved} pages={pages} />
+      <div>
+        <div className="list-controls">
+          <SearchControl onChange={setSearchTerm} value={searchTerm} />
+          <ButtonCreatePage />
+        </div>
+        <PagesList hasResolved={hasResolved} pages={pages} />
+      </div>
     </div>
   );
 };

@@ -12,6 +12,7 @@ https://github.com/wordpress-juanmaguitar/streams/discussions/2
 
 ## Streams 2025
 
+- [2025-03-28 - WordPress Data Layer (part 2)](2025/2025-03-28/README.md) (English)
 - [2025-03-21 - Módulos Javascript en WordPress](2025/2025-03-21/README.md) (Spanish)
 - [2025-03-14 - WordPress Data Layer (part 2)](2025/2025-03-14/README.md) (English)
 - [2025-03-07 - Primeros pasos con la Interactivity API](2025/2025-03-07/README.md) (Spanish)

@@ -1,4 +1,4 @@
-# 2025-03-21 Módulos Javascript en WordPress
+# 2025-03-28 Módulos Javascript en WordPress
 
 [![](./thumbnail.png)](https://www.youtube.com/watch?v=JWQzGGA_Faw)
 
