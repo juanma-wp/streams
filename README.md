@@ -12,6 +12,8 @@ https://github.com/wordpress-juanmaguitar/streams/discussions/2
 
 ## Streams 2025
 
+- [2025-04-17 - Creando el bloque "Word Switcher"](2025/2025-04-17/README.md) (Spanish)
+- [2025-04-11 - WordPress Data Layer (part 4)](2025/2025-04-11/README.md) (English)
 - [2025-04-04 - JavaScript y React para Wordpress: Lo Básico](2025/2025-04-04/README.md) (Spanish)
 - [2025-03-28 - WordPress Data Layer (part 3)](2025/2025-03-28/README.md) (English)
 - [2025-03-21 - Módulos Javascript en WordPress](2025/2025-03-21/README.md) (Spanish)
