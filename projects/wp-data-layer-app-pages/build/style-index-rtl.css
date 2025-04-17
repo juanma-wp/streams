@@ -55,3 +55,6 @@ button .components-spinner {
   flex-grow: 1;
   margin-left: 8px;
 }
+#wp-data-layer-app-pages .wp-list-table button {
+  margin-left: 4px;
+}

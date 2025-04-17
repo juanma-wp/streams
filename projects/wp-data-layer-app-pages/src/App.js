@@ -4,6 +4,7 @@ import { PagesList } from "./PagesList";
 import { SearchControl } from "@wordpress/components";
 import { useState } from "@wordpress/element";
 import { ButtonCreatePage } from "./ButtonCreatePage";
+import { Notifications } from "./Notifications";
 
 export const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -36,6 +37,7 @@ export const App = () => {
           <ButtonCreatePage />
         </div>
         <PagesList hasResolved={hasResolved} pages={pages} />
+        <Notifications />
       </div>
     </div>
   );
