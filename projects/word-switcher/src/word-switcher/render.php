@@ -37,5 +37,12 @@ if ($processor->next_tag(['tag_name' => 'div', 'class_name' => 'wp-block-streams
 		"isFading" => false
 	]));
 }
-
+?>
+<pre>
+<?php
+echo $content;
+echo $attributes;
+?>
+</pre>
+<?php
 echo $processor->get_updated_html();
