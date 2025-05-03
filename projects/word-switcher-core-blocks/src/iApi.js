@@ -1,6 +1,8 @@
 import { store, getContext } from "@wordpress/interactivity";
+console.log("iAPI view.js file loaded");
+import "./style.scss";
 
-store("streams-april/word-switcher", {
+store("streams-may/word-switcher-core-blocks", {
 	state: {
 		get currentWord() {
 			const context = getContext();
