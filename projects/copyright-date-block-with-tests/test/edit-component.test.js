@@ -37,8 +37,35 @@ describe("Edit component", () => {
     const { getByText } = render(<Edit {...mockEditProps} />);
     expect(getByText(/© 2024/)).toBeInTheDocument();
   });
-  it("renders Inspector Controls", () => {
-    const { getByTestId } = render(<Edit {...mockEditProps} />);
-    expect(getByTestId("inspector-controls")).toBeInTheDocument();
+  describe("Settings Panel", () => {
+    it("renders Inspector Controls", () => {
+      const { getByTestId } = render(<Edit {...mockEditProps} />);
+      expect(getByTestId("inspector-controls")).toBeInTheDocument();
+    });
+    it("renders PanelBody with correct title", () => {
+      const { getByTestId } = render(<Edit {...mockEditProps} />);
+      expect(getByTestId("panel-body")).toBeInTheDocument();
+      expect(getByTestId("panel-body")).toHaveAttribute(
+        "data-title",
+        "Settings"
+      );
+    });
+    it("doesn't render TextControl if showStartingYear is false", () => {
+      const { queryByTestId } = render(<Edit {...mockEditProps} />);
+      expect(queryByTestId("text-control")).not.toBeInTheDocument();
+    });
+    it("renders TextControl if showStartingYear is true", () => {
+      const mockEditPropsWithStartingYear = {
+        ...mockEditProps,
+        attributes: {
+          ...mockEditProps.attributes,
+          showStartingYear: true,
+        },
+      };
+      const { getByTestId } = render(
+        <Edit {...mockEditPropsWithStartingYear} />
+      );
+      expect(getByTestId("text-control")).toBeInTheDocument();
+    });
   });
 });

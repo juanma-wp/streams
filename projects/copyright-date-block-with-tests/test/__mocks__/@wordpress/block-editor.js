@@ -2,7 +2,11 @@ const useBlockProps = jest.fn(() => ({
   className: "wp-block-copyright-date",
 }));
 
-const InspectorControls = () => <div data-testid="inspector-controls"></div>;
+useBlockProps.save = jest.fn();
+
+const InspectorControls = ({ children }) => (
+  <div data-testid="inspector-controls">{children}</div>
+);
 
 module.exports = {
   useBlockProps,

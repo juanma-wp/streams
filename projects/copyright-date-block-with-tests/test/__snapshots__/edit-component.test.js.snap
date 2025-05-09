@@ -4,7 +4,16 @@ exports[`Edit component matches snapshot 1`] = `
 <div>
   <div
     data-testid="inspector-controls"
-  />
+  >
+    <div
+      data-testid="panel-body"
+      data-title="Settings"
+    >
+      <div
+        data-testid="toggle-control"
+      />
+    </div>
+  </div>
   <p
     class="wp-block-copyright-date"
   >

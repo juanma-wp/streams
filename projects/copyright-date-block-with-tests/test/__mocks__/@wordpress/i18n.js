@@ -1,3 +1,3 @@
 module.exports = {
-  __: jest.fn(),
+  __: (text) => text,
 };
