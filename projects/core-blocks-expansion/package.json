@@ -1,0 +1,17 @@
+{
+  "name": "core-blocks-expansion",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "dependencies": {
+    "@wordpress/scripts": "^30.16.0"
+  },
+  "devDependencies": {}
+}
