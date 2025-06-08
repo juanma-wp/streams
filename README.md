@@ -12,6 +12,7 @@ https://github.com/wordpress-juanmaguitar/streams/discussions/2
 
 ## Streams 2025
 
+- [2025-06-06 - WordPress Challenges](2025/2025-06-06/README.md) (English)
 - [2025-05-30 - Novedades para desarrolladores en WordPress 6.8](2025/2025-05-30/README.md) (Spanish)
 - [2025-05-22 - Expandiendo bloques CORE](2025/2025-05-22/README.md) (Spanish)
 - [2025-05-16 - MCP y WordPress](2025/2025-05-16/README.md) (Spanish)
