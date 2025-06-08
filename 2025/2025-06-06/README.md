@@ -1,6 +1,6 @@
 # 2025-06-06 - WordPress Challenged
 
-[![](./thumbnail.png)](#)
+[![](./thumbnail.png)](https://www.youtube.com/live/DgB5M5ameUs?si=e8IetpkNORI12mjX)
 
 https://wpchallenges.beehiiv.com/p/wp-challenge-1-block-development
 
