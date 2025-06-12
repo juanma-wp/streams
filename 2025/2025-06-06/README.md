@@ -22,3 +22,17 @@ https://github.com/juanma-wp/streams/tree/main/projects/block-category-posts
 - https://react.dev/reference/react/useEffect
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
 - https://developer.wordpress.org/news/2023/05/useentityrecords-an-easier-way-to-fetch-wordpress-data/
+
+## Generate content quickly 
+
+Using `wp-env`
+```
+wp-env run cli wp package install yoast/wp-cli-faker
+wp-env run cli wp faker core content --posts=20 --categories=4
+```
+
+Without `wp-env`
+```
+wp package install yoast/wp-cli-faker
+wp faker core content --posts=20 --categories=4
+```
