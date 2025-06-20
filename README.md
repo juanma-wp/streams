@@ -12,6 +12,7 @@ https://github.com/wordpress-juanmaguitar/streams/discussions/2
 
 ## Streams 2025
 
+- [2025-06-20 - REST API en WordPress.com (parte 2)](2025/2025-06-20/README.md) (Spanish)
 - [2025-06-17 - REST API en WordPress.com](2025/2025-06-17/README.md) (Spanish)
 - [2025-06-06 - WordPress Challenges](2025/2025-06-06/README.md) (English)
 - [2025-05-30 - Novedades para desarrolladores en WordPress 6.8](2025/2025-05-30/README.md) (Spanish)
