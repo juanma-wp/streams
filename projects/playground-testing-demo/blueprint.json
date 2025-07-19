@@ -1,0 +1,9 @@
+{
+  "login": true,
+  "steps": [
+    {
+      "step": "activatePlugin",
+      "pluginPath": "/wordpress/wp-content/plugins/playground-testing-demo/playground-testing-demo.php"
+    }
+  ]
+}

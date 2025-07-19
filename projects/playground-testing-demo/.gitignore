@@ -1,0 +1,8 @@
+# Playwright
+/test-results/
+/playwright-report/
+.DS_Store
+
+# WordPress
+debug.log
+node_modules/.vite/results.json

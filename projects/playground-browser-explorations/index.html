@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <iframe
+      id="wp"
+      style="width: 100%; height: 90vh; border: 1px solid #000"
+    ></iframe>
+    <div id="output" style="margin-top: 2em; font-family: monospace"></div>
+
+    <script type="module">
+      import * as PlaygroundClient from "https://playground.wordpress.net/client/index.js";
+      const { startPlaygroundWeb } = PlaygroundClient;
+
+      console.log(PlaygroundClient);
+      const hasWordPressSiteInOPFS = false;
+
+      const blueprint = {
+                preferredVersions: {
+                  wp: "6.8",
+                  php: "8.0",
+                },
+                landingPage: "/wp-admin",
+                login: true,
+                plugins: ["coblocks"],
+              }
+
+      
+        const mountDescriptor = {
+            device: {
+              type: 'opfs',
+              path: `my-unique-prefix/my-site`,
+            },
+            mountpoint: '/wordpress',
+            initialSyncDirection: hasWordPressSiteInOPFS ? 'opfs-to-memfs' : 'memfs-to-opfs',
+          };
+
+        const client = await startPlaygroundWeb({
+          iframe: document.getElementById('wp'),
+          remoteUrl: 'https://playground.wordpress.net/remote.html',
+          blueprint: blueprint,
+          shouldInstallWordPress: !hasWordPressSiteInOPFS,
+		      mounts: hasWordPressSiteInOPFS ? [mountDescriptor] : [],
+        });
+
+        if (!hasWordPressSiteInOPFS) {
+          console.log("-----mounting opfs-----");
+          console.log(mountDescriptor);
+          await client.mountOpfs(mountDescriptor);
+        }
+        await client.isReady();
+    
+    
+      
+      const button = document.querySelector('button')
+      button.disabled = false
+
+      const response = await client.run({
+        // wp-load.php is only required if you want to interact with WordPress.
+        code: '<?php require_once "/wordpress/wp-load.php"; $posts = get_posts(); echo "Post Title: " . $posts[0]->post_title;',
+      });
+      console.log(response.text);
+
+      console.log("content of /");
+      console.log(await client.listFiles('/'));
+      console.log("content of /wordpress/wp-content/uploads");
+      console.log(await client.listFiles('/wordpress/wp-content/uploads'));
+      
+      
+      await client.writeFile('/wordpress/client_index.php', '<?php echo "Hi!"; ');
+      await client.run({
+        scriptPath: '/wordpress/client_index.php',
+      });
+      
+      console.log(await client.listFiles('/wordpress'));
+
+      console.log(await client.readFileAsText('/wordpress/client_index.php'));
+
+      console.log(client.request);
+
+      const responseRequest = await client.request({
+        url: '/wp-json/wp/v2/posts',
+        method: 'GET'
+      });
+
+      console.log(responseRequest.text);
+      
+      
+      window.playgroundMountDirectory = async () => {
+        const directoryHandle = await window.showDirectoryPicker()
+        console.log(client.mount);
+        console.log(directoryHandle);
+        console.assert(!window.parent, '⚠️ window.parent is empty')
+        window.parent.postMessage({
+          type: 'mount-directory-handle',
+          directoryHandle,
+          mountpoint: '/wordpress/wp-content/uploads/custom/',
+        });
+        // client.mount({
+        //   virtualFSPath: '/wordpress/wp-content/uploads/custom/',
+        //   mountHandler: directoryHandle
+        // })
+        const mounted = await client.listFiles('/wordpress/wp-content/uploads/custom/')
+        console.log(mounted);
+        console.assert(mounted.length > 0, '⚠️ Mounted directory is empty')
+      }
+
+    
+    </script>
+    <button disabled="disabled" onclick="playgroundMountDirectory()">Mount Directory</button>
+  </body>
+</html>
