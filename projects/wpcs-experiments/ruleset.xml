@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ruleset name="WPCS Experiments">
+    <description>WordPress Coding Standards for this project</description>
+
+    <!-- Apply WordPress coding standards -->
+    <rule ref="WordPress">
+        <exclude name="Squiz.Commenting.FileComment.MissingPackageTag" />
+        <exclude name="Squiz.Commenting.FileComment.SpacingAfterOpen" />
+    </rule>
+
+    <!-- Scan these files and directories -->
+    <file>./src</file>
+
+    <!-- Only check PHP files -->
+    <arg name="extensions" value="php" />
+
+    <!-- Show progress, use colors, and show sources -->
+    <arg value="p" />
+    <arg name="colors" />
+
+    <!-- Set minimum PHP version -->
+    <config name="minimum_supported_wp_version" value="5.0" />
+    <config name="testVersion" value="7.4-" />
+
+    <!-- Exclude vendor directory and other non-essential directories -->
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/node_modules/*</exclude-pattern>
+</ruleset>

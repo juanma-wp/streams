@@ -12,6 +12,7 @@ https://github.com/wordpress-juanmaguitar/streams/discussions/2
 
 ## Streams 2025
 
+- [2025-08-01 - WordPress Coding Standards](2025/2025-08-01/README.md) (Spanish)
 - [2025-07-18 - Core projects for AI in WordPress](2025/2025-07-18/README.md) (English)
 - [2025-07-11 - Tests automáticos con WordPress Playground](2025/2025-07-11/README.md) (Spanish)
 - [2025-07-04 - WordPress Playground for Developers](2025/2025-07-04/README.md) (English)
