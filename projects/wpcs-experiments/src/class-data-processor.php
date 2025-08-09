@@ -11,23 +11,24 @@ function process_user_data( $user_data ) {
 
 // Clase sin documentación
 class Data_Processor {
-	
+
+
 	public $settings;
-	
+
 	// Método sin documentación
 	public function __construct( $settings ) {
 		$this->settings = $settings;
 	}
-	
+
 	// Método sin documentación y parámetros sin tipos
 	public function process( $data, $options ) {
 		if ( empty( $data ) ) {
 			return false;
 		}
-		
+
 		return $this->apply_processing( $data, $options );
 	}
-	
+
 	// Método privado sin documentación
 	private function apply_processing( $data, $options ) {
 		// Lógica de procesamiento

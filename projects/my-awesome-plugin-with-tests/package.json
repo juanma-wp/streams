@@ -1,0 +1,42 @@
+{
+  "name": "my-awesome-plugin-with-tests",
+  "version": "0.1.0",
+  "private": true,
+  "description": "WordPress plugin scaffold with PHPUnit tests and local environment via @wordpress/env.",
+  "license": "GPL-2.0-or-later",
+  "author": "Juan Manuel Garrido",
+  "keywords": [
+    "wordpress",
+    "wp-plugin",
+    "plugin",
+    "phpunit",
+    "wp-env"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHANGE_ME/my-awesome-plugin-with-tests.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CHANGE_ME/my-awesome-plugin-with-tests/issues"
+  },
+  "homepage": "https://github.com/CHANGE_ME/my-awesome-plugin-with-tests#readme",
+  "engines": {
+    "node": ">=18",
+    "npm": ">=9"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^10.28.0"
+  },
+  "scripts": {
+    "wp-env": "wp-env",
+    "env:start": "wp-env start",
+    "env:stop": "wp-env stop",
+    "env:clean": "wp-env clean",
+    "test:unit": "wp-env run tests-cli --env-cwd=wp-content/plugins//my-awesome-plugin-with-tests ./vendor/bin/phpunit --testsuite=unit",
+    "test:integration": "wp-env run tests-cli --env-cwd=wp-content/plugins//my-awesome-plugin-with-tests ./vendor/bin/phpunit --testsuite=integration",
+    "test:all": "wp-env run tests-cli --env-cwd=wp-content/plugins//my-awesome-plugin-with-tests ./vendor/bin/phpunit",
+    "test:coverage": "wp-env run tests-cli --env-cwd=wp-content/plugins//my-awesome-plugin-with-tests ./vendor/bin/phpunit --coverage-html coverage",
+    "test:watch": "npm-watch test:unit",
+    "test:debug": "wp-env run tests-cli --env-cwd=wp-content/plugins//my-awesome-plugin-with-tests ./vendor/bin/phpunit --debug"
+  }
+}

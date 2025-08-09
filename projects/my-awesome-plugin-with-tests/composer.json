@@ -1,0 +1,10 @@
+{
+  "require-dev": {
+    "wp-cli/i18n-command": "^2",
+    "phpunit/phpunit": "^9.6",
+    "yoast/phpunit-polyfills": "^1.0"
+  },
+  "scripts": {
+    "makepot": "wp i18n make-pot ."
+  }
+}
