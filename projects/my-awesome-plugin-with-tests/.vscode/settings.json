@@ -1,0 +1,7 @@
+{
+  "php.intelephense.environment.includePaths": [
+    "vendor/wp-phpunit/wp-phpunit",
+    "vendor/johnpbloch/wordpress-core"
+  ],
+  "intelephense.files.exclude": ["tests/.stubs/**"]
+}

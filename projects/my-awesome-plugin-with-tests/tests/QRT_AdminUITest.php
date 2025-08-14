@@ -14,7 +14,7 @@ class QRT_Admin_UITest extends WP_UnitTestCase
 
     public function test_settings_page_is_registered()
     {
-        global $menu, $submenu;
+        global $submenu;
         // Ensure the admin menu is generated (setUp already does this)
         do_action('admin_menu');
         // Options menu slug is 'options-general.php'

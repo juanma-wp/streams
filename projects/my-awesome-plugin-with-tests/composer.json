@@ -2,7 +2,9 @@
   "require-dev": {
     "wp-cli/i18n-command": "^2",
     "phpunit/phpunit": "^9.6",
-    "yoast/phpunit-polyfills": "^1.0"
+    "yoast/phpunit-polyfills": "^1.0",
+    "johnpbloch/wordpress-core": "^6.8",
+    "wp-phpunit/wp-phpunit": "^6.8"
   },
   "scripts": {
     "makepot": "wp i18n make-pot ."
