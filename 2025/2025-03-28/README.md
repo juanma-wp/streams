@@ -2,6 +2,8 @@
 
 [![](./thumbnail.png)](https://www.youtube.com/live/E4SblEO4vuU)
 
+🎥 **Watch this session on YouTube:** [WordPress Data Layer (part 3)](https://www.youtube.com/live/E4SblEO4vuU)
+
 - https://learn.wordpress.org/course/using-the-wordpress-data-layer/
 - https://excalidraw.com/#json=9AERUt0LYdckQQbBjHvWX,vNzaCJZ2AdEFhhifE0BU5w
 - https://developer.wordpress.org/block-editor/reference-guides/data/

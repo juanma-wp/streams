@@ -2,6 +2,8 @@
 
 [![](./thumbnail.jpg)](https://youtu.be/GhlIglKkd5c?si=oFS8xlDP9p_jpwF_)
 
+🎥 **Watch this session on YouTube:** [Probando Studio de wordpress com](https://youtu.be/GhlIglKkd5c?si=oFS8xlDP9p_jpwF_)
+
 Revisando Studio by WordPress.com.
 
 - En esta sesión vemos como aprovechar esta herramienta de desarrollo local de WordPress:

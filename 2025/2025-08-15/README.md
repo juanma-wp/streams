@@ -2,6 +2,8 @@
 
 [![](./thumbnail.png)](https://www.youtube.com/live/FmxrcvKBpJ8?si=q2v37iFNapyqg5B0)
 
+🎥 **Watch this session on YouTube:** [Unit Tests vs Integration Tests with PHPUnit in WordPress](https://www.youtube.com/live/FmxrcvKBpJ8?si=q2v37iFNapyqg5B0)
+
 The project worked in this session is available at:
 https://github.com/juanma-wp/streams/tree/main/projects/my-awesome-plugin-with-tests
 

@@ -2,6 +2,8 @@
 
 [![](./thumbnail.png)](https://www.youtube.com/live/MEcumw0sb6Y?si=FXZbYSmtvDVoY8fa)
 
+🎥 **Watch this session on YouTube:** [Unit Tests with PHPUnit](https://www.youtube.com/live/MEcumw0sb6Y?si=FXZbYSmtvDVoY8fa)
+
 The project worked in this session is available at:
 https://github.com/juanma-wp/streams/tree/main/projects/my-awesome-plugin-with-tests
 

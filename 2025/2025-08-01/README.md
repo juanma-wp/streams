@@ -2,6 +2,8 @@
 
 [![](./thumbnail.png)](https://www.youtube.com/live/vEu1R0XLrJQ?si=Q53P6LKh0rVFKe1k)
 
+🎥 **Watch this session on YouTube:** [WordPress Coding Standards](https://www.youtube.com/live/vEu1R0XLrJQ?si=Q53P6LKh0rVFKe1k)
+
 The project worked in this session is available at:
 https://github.com/juanma-wp/streams/tree/main/projects/wpcs-experiments
 

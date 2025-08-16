@@ -2,6 +2,8 @@
 
 [![](./thumbnail.png)](https://www.youtube.com/watch?v=g5EW3vhqNpY)
 
+🎥 **Watch this session on YouTube:** [WordPress Playground for Developers](https://www.youtube.com/watch?v=g5EW3vhqNpY)
+
 The project worked in this session is available at:
 https://github.com/juanma-wp/streams/tree/main/projects/playground-browser-explorations
 

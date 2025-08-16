@@ -2,7 +2,9 @@
 
 [![](./thumbnail.jpg)](https://youtu.be/gn2W7evoUlk)
 
-n this session I provide a walkthrough of the WordPress Interactivity API, a feature introduced in WordPress 6.5. The Interactivity API offers a standardized way to add interactivity to the frontend of WordPress sites, enabling developers to create dynamic, performant experiences.
+🎥 **Watch this session on YouTube:** [Getting started with the Interactivity API](https://youtu.be/gn2W7evoUlk)
+
+In this session I provide a walkthrough of the WordPress Interactivity API, a feature introduced in WordPress 6.5. The Interactivity API offers a standardized way to add interactivity to the frontend of WordPress sites, enabling developers to create dynamic, performant experiences.
 
 This session covers:
 

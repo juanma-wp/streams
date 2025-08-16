@@ -2,6 +2,8 @@
 
 [![](./thumbnail.png)](https://www.youtube.com/live/bJM9n4-AwG8?si=5ZMR5jmEauDbtwcx)
 
+🎥 **Watch this session on YouTube:** [REST API en WordPress.com](https://www.youtube.com/live/bJM9n4-AwG8?si=5ZMR5jmEauDbtwcx)
+
 - https://excalidraw.com/#json=fRTm9wmp8PsZOs3uD8Pgz,XLthXjI7WS866KDWbMExVw
 - https://developer.wordpress.com/docs/wpcc/
 - https://developer.wordpress.com/docs/api/getting-started/

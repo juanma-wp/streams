@@ -2,6 +2,8 @@
 
 [![](./thumbnail.png)](https://www.youtube.com/watch?v=tm402NyLcuE&t=849s)
 
+🎥 **Watch this session on YouTube:** [WordPress Data Layer (part 4)](https://www.youtube.com/watch?v=tm402NyLcuE&t=849s)
+
 - https://www.youtube.com/watch?v=tm402NyLcuE&t=849s
 - https://www.youtube.com/watch?v=o5vXbNMO4pk&t=3660s
 

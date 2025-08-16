@@ -2,6 +2,8 @@
 
 [![](./thumbnail.png)](https://www.youtube.com/live/95qiPEvQicY?si=Jpcfjz7k_lb4IAOH)
 
+🎥 **Watch this session on YouTube:** [REST API en WordPress.com (parte 2)](https://www.youtube.com/live/95qiPEvQicY?si=Jpcfjz7k_lb4IAOH)
+
 - https://excalidraw.com/#json=l6qTnAKeCswSq7nXP6Jsl,SATd6asMKdJ2mupDWQSL8w
 - https://github.com/Automattic/wpcom-rest-api-examples
 - https://developer.wordpress.com/es/docs/api/

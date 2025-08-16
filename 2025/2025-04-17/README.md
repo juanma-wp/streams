@@ -2,6 +2,8 @@
 
 [![](./thumbnail.png)](https://www.youtube.com/watch?v=HC-vUcIqbH8)
 
+🎥 **Watch this session on YouTube:** [Creando el bloque "Word Switcher"](https://www.youtube.com/watch?v=HC-vUcIqbH8)
+
 - https://excalidraw.com/#json=qeSO5b5krcUKwzhHLPTdZ,E3WQfWWjioPvVfUKiul3uw
 - https://developer.wordpress.org/block-editor/reference-guides/interactivity-api/
 - https://developer.wordpress.org/block-editor/how-to-guides/format-api/

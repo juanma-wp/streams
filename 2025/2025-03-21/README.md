@@ -2,6 +2,8 @@
 
 [![](./thumbnail.png)](https://www.youtube.com/watch?v=JWQzGGA_Faw)
 
+🎥 **Watch this session on YouTube:** [Módulos Javascript en WordPress](https://www.youtube.com/watch?v=JWQzGGA_Faw)
+
 En esta sesión vemos cosas como:
 
 - cómo funciona este sistema de módulos

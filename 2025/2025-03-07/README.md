@@ -2,6 +2,8 @@
 
 [![](./thumbnail.png)](https://youtube.com/live/9tbg0RfeFY8)
 
+🎥 **Watch this session on YouTube:** [Primeros pasos con la Interactivity API](https://youtube.com/live/9tbg0RfeFY8)
+
 En esta sesión, veremos qué es la Interactivity API, que está disponible para los desarrolladores en WordPress desde la versión 6.5. La Interactivity API proporciona un standard para añadir interactividad en el frontend.
 
 En esta sesión hablaremos de:

@@ -2,6 +2,8 @@
 
 [![](./thumbnail.png)](https://www.youtube.com/watch?v=vAyO9mQNzlU&t=6786s)
 
+🎥 **Watch this session on YouTube:** [JavaScript y React para Wordpress: Lo Básico](https://www.youtube.com/watch?v=vAyO9mQNzlU&t=6786s)
+
 - https://excalidraw.com/#json=k3Y9eF5zbqE0dFxhQhbuT,8chEZUaLpB9s86HM30yWPQ
 - https://developer.mozilla.org/en-US/docs/Glossary/Engine/JavaScript
 - https://nodejs.org/en

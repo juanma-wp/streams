@@ -2,6 +2,8 @@
 
 [![](./thumbnail.png)](https://www.youtube.com/live/DgB5M5ameUs?si=e8IetpkNORI12mjX)
 
+🎥 **Watch this session on YouTube:** [WordPress Challenged](https://www.youtube.com/live/DgB5M5ameUs?si=e8IetpkNORI12mjX)
+
 https://wpchallenges.beehiiv.com/p/wp-challenge-1-block-development
 
 The project worked in this session is available at:

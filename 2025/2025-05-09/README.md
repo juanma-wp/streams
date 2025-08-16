@@ -2,6 +2,8 @@
 
 [![](./thumbnail.png)](https://www.youtube.com/watch?v=vDL8zDRaSiY)
 
+🎥 **Watch this session on YouTube:** [Unit Tests for Blocks (part 2)](https://www.youtube.com/watch?v=vDL8zDRaSiY)
+
 - https://excalidraw.com/#json=Eoh1xH0PxFNnoD1WChVZ2,3OM8AMNIRS--JUDvbbi9kg
 - https://jestjs.io/docs/
 - https://testing-library.com/docs/

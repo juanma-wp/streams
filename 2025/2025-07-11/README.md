@@ -2,6 +2,8 @@
 
 [![](./thumbnail.png)](https://youtu.be/h_nPac_MwLM)
 
+🎥 **Watch this session on YouTube:** [Tests automáticos con WordPress Playground](https://youtu.be/h_nPac_MwLM)
+
 The project worked in this session is available at:
 https://github.com/juanma-wp/streams/tree/main/projects/playground-testing-demo
 

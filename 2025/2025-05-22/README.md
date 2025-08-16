@@ -2,6 +2,8 @@
 
 [![](./thumbnail.png)](https://www.youtube.com/watch?v=j6IUDEnApfE)
 
+🎥 **Watch this session on YouTube:** [Expandiendo bloques CORE](https://www.youtube.com/watch?v=j6IUDEnApfE)
+
 - https://logrono.wordcamp.org/2025/session/realmente-necesitas-desarrollar-un-bloque-nuevo-veamos-algunas-alternativas/
 - https://excalidraw.com/#json=glwdtUmVgi99WcLuQrh7F,1fxAnTskKOa5iiVaLSDepA
 - https://github.com/ryanwelcher/advanced-query-loop

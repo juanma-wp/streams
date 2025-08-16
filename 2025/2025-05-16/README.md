@@ -2,6 +2,8 @@
 
 [![](./thumbnail.png)](https://www.youtube.com/watch?v=CbcjW24zCBQ)
 
+🎥 **Watch this session on YouTube:** [MCP y WordPress](https://www.youtube.com/watch?v=CbcjW24zCBQ)
+
 - https://excalidraw.com/#json=VqIps8aCga5Tce07gSI66,wMnUYd3QZMZyG2fFn9vaJQ
 - https://modelcontextprotocol.io/introduction
 - WordPress MCP
