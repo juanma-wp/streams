@@ -1,6 +1,6 @@
 # 2025-02-07 - Probando Studio de wordpress com
 
-[![](./thumbnail.jpg)](https://youtu.be/gn2W7evoUlk)
+[![](./thumbnail.jpg)](https://youtu.be/GhlIglKkd5c?si=oFS8xlDP9p_jpwF_)
 
 Revisando Studio by WordPress.com.
 
