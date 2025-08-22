@@ -1,0 +1,8 @@
+{
+  "plugins": ["."],
+  "port": 8084,
+  "testsPort": 8085,
+  "mappings": {
+    "wp-content/plugins/my-plugin-stream-with-tests": "."
+  }
+}

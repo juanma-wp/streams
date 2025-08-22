@@ -3,6 +3,5 @@
     "vendor/wp-phpunit/wp-phpunit",
     "vendor/johnpbloch/wordpress-core"
   ],
-  "intelephense.files.exclude": ["tests/.stubs/**"], 
-  "workbench.colorTheme": "Default Light Modern"
+  "intelephense.files.exclude": ["tests/.stubs/**"]
 }

@@ -1,0 +1,9 @@
+.qrt-badge span {
+    margin: 0 0 1rem;
+    padding: 0.25rem 0.5rem;
+    display: inline-block;
+    background: #f5f5f5;
+    color: #555;
+    font-size: 0.85em;
+    border-radius: 4px;
+}

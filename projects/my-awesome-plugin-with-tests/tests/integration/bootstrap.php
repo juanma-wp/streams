@@ -31,7 +31,7 @@ require_once "{$_tests_dir}/includes/functions.php";
  */
 function _manually_load_plugin()
 {
-	require dirname(dirname(__FILE__)) . '/my-awesome-plugin.php';
+	require dirname(dirname(dirname(__FILE__))) . '/my-awesome-plugin.php';
 }
 
 tests_add_filter('muplugins_loaded', '_manually_load_plugin');

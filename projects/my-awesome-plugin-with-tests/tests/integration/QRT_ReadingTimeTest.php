@@ -9,16 +9,10 @@ class QRT_Reading_TimeTest extends WP_UnitTestCase
         update_option('qrt_wpm', 200);
     }
 
-    public function test_sample()
-    {
-        // Replace this with some actual testing code.
-        $this->assertTrue(true);
-    }
-
     public function test_adds_badge_on_single_post_main_query()
     {
         $post_id = $this->factory()->post->create([
-            'post_content' => str_repeat('word ', 150), // ~400 words
+            'post_content' => str_repeat('word ', 150), // 150 words
         ]);
 
         // Simulate main query on single post and run within The Loop
@@ -26,10 +20,11 @@ class QRT_Reading_TimeTest extends WP_UnitTestCase
         $this->go_to(get_permalink($post_id));
 
         $content = '';
+        // In the loop, we need to get the content from the post
         while (have_posts()) {
             the_post();
-            $content = apply_filters('the_content', 'Original content');
-            break; // Only need the first post
+            $content = qrt_add_reading_time(get_the_content());
+            break;
         }
 
         $this->assertStringContainsString('qrt-badge', $content);

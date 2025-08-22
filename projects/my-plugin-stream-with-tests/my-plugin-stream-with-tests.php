@@ -1,12 +1,19 @@
 <?php
-/*
-Plugin Name: Quick Reading Time
-Description: Displays an estimated reading-time badge beneath post titles.
-Version:     1.0
-Author:      Your Name
-License:     GPL-2.0+
-Text Domain: quick-reading-time
-*/
+
+/**
+ * Plugin Name:     My Plugin (Stream) with Tests
+ * Plugin URI:      https://juanma.codes
+ * Description:     A plugin for testing (stream)
+ * Author:          JuanMa
+ * Author URI:      YOUR SITE HERE
+ * Text Domain:     my-plugin-stream-with-tests
+ * Domain Path:     /languages
+ * Version:         0.1.0
+ *
+ * @package         My_Plugin_Stream_With_Tests
+ */
+
+// Your code starts here.
 
 // Register the WPM setting during admin_init.
 function qrt_register_settings()

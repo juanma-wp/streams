@@ -1,0 +1,27 @@
+{
+  "name": "my-plugin-stream-with-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "env:start": "wp-env start",
+    "env:start:debug": "wp-env start --xdebug",
+    "env:stop": "wp-env stop",
+    "env:destroy": "wp-env destroy",
+    "env:clean": "wp-env clean all",
+    "env:logs": "wp-env logs",
+    "env:reset": "wp-env destroy && wp-env start",
+    "env:update": "wp-env start --update",
+    "test": "wp-env run tests-cli --env-cwd=wp-content/plugins/my-plugin-stream-with-tests ./vendor/bin/phpunit",
+    "test:integration": "wp-env run tests-cli --env-cwd=wp-content/plugins/my-plugin-stream-with-tests ./vendor/bin/phpunit -- --testsuite integration"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wordpress/env": "^10.29.0"
+  }
+}

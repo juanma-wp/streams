@@ -33,7 +33,7 @@
     "env:stop": "wp-env stop",
     "env:clean": "wp-env clean",
     "test:unit": "wp-env run tests-cli --env-cwd=wp-content/plugins//my-awesome-plugin-with-tests ./vendor/bin/phpunit --testsuite=unit",
-    "test:integration": "wp-env run tests-cli --env-cwd=wp-content/plugins//my-awesome-plugin-with-tests ./vendor/bin/phpunit --testsuite=integration",
+    "test:integration": "wp-env run tests-cli --env-cwd=wp-content/plugins//my-awesome-plugin-with-tests ./vendor/bin/phpunit --testsuite=integration --colors=always --stderr",
     "test:all": "wp-env run tests-cli --env-cwd=wp-content/plugins//my-awesome-plugin-with-tests ./vendor/bin/phpunit",
     "test:coverage": "wp-env run tests-cli --env-cwd=wp-content/plugins//my-awesome-plugin-with-tests ./vendor/bin/phpunit --coverage-html coverage",
     "test:watch": "npm-watch test:unit",
