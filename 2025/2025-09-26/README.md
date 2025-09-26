@@ -7,7 +7,7 @@
 
 - https://excalidraw.com/#json=jM57b6VTx5aHkm9GIW8_L,2lsvYKJ2HJTw0eYmgURqog
 - https://chatgpt.com/share/68d6ce8f-6d58-8012-8758-c5a28112563c
-- https://developer.wordpress.org/reference/classes/wp_html_tag_processor/#tokens-and-finer-grained-processing
+- https://developer.wordpress.org/reference/classes/wp_html_tag_processor/
 - https://make.wordpress.org/core/2023/03/07/introducing-the-html-api-in-wordpress-6-2/
 - https://make.wordpress.org/core/tag/html-api/
 - https://developer.wordpress.org/news/2023/09/the-html-api-process-your-tags-not-your-pain/
