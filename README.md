@@ -12,7 +12,8 @@ https://github.com/wordpress-juanmaguitar/streams/discussions/2
 
 ## Streams 2025
 
-- [2025-09-19 - WordPress REST API Authentication](2025/2025-09-19/README.md) (Spanish)
+- [2025-09-26 - HTML API](2025/2025-09-26/README.md) (Spanish)
+- [2025-09-19 - WordPress REST API Authentication](2025/2025-09-19/README.md) (English)
 - [2025-08-22 - Test de Integración con PHPUnit en WordPress](2025/2025-08-22/README.md) (Spanish)
 - [2025-08-15 - Unit Tests vs Integration Tests with PHPUnit in WordPress](2025/2025-08-15/README.md) (English)
 - [2025-08-08 - Unit Tests with PHPUnit](2025/2025-08-08/README.md) (English)
