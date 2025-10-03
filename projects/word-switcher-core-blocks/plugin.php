@@ -62,7 +62,7 @@ function word_switcher_core_blocks_register_assets()
 		'word-switcher-core-blocks-style-iApi',
 		plugins_url('build/style-iApi.css', __FILE__),
 		array(),
-		$script_iApi_asset['version']
+		filemtime(plugin_dir_path(__FILE__) . 'build/style-iApi.css')
 	);
 }
 
