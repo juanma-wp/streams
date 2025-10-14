@@ -12,7 +12,7 @@ https://github.com/wordpress-juanmaguitar/streams/discussions/2
 
 ## Streams 2025
 
-- [2025-10-10 Expandiendo bloques core con Interactividad Frontend: HTML API y Interactivity API](2025/2025-10-10/README.md) (Spanish)
+- [2025-10-10 - Expandiendo bloques core con Interactividad Frontend: HTML API y Interactivity API](2025/2025-10-10/README.md) (Spanish)
 - [2025-10-02 - WordPress REST API Authentication (part 2)](2025/2025-10-02/README.md) (English)
 - [2025-09-26 - HTML API](2025/2025-09-26/README.md) (Spanish)
 - [2025-09-19 - WordPress REST API Authentication](2025/2025-09-19/README.md) (English)
