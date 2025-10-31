@@ -1,0 +1,18 @@
+{
+	"name": "dataform-example",
+	"version": "1.0.0",
+	"description": "Simple DataForm testing plugin",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"start": "wp-scripts start"
+	},
+	"dependencies": {
+		"@wordpress/dataviews": "^10.2.0",
+		"@wordpress/dom-ready": "^3.0.0",
+		"@wordpress/element": "^5.0.0"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^30.27.0"
+	}
+}

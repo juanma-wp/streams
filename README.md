@@ -12,6 +12,7 @@ https://github.com/wordpress-juanmaguitar/streams/discussions/2
 
 ## Streams 2025
 
+- [2025-10-31 - DataViews y DataForm](2025/2025-10-31/README.md) (English)
 - [2025-10-24 - DataViews y DataForm](2025/2025-10-24/README.md) (Spanish)
 - [2025-10-17 - Abilities API](2025/2025-10-17/README.md) (English)
 - [2025-10-10 - Expandiendo bloques core con Interactividad Frontend: HTML API y Interactivity API](2025/2025-10-10/README.md) (Spanish)
