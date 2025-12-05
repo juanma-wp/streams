@@ -1,0 +1,17 @@
+{
+  "name": "command-palette-stream",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@wordpress/icons": "^11.3.0",
+    "@wordpress/scripts": "^31.1.0"
+  }
+}

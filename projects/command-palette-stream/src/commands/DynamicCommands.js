@@ -1,0 +1,89 @@
+import {
+  store as commandsStore,
+  useCommand,
+  useCommandLoader,
+} from "@wordpress/commands";
+import { replace, button, starFilled } from "@wordpress/icons";
+import { dispatch, useSelect } from "@wordpress/data";
+import { __ } from "@wordpress/i18n";
+import { getPathAndQueryString } from "@wordpress/url";
+import { registerPlugin } from "@wordpress/plugins";
+import { store as editorStore } from "@wordpress/editor";
+import { store as coreStore } from "@wordpress/core-data";
+
+const Render = () => {
+  // Register dynamic commands.
+  useCommandLoader({
+    name: "block-developer-cookbook/dynamic-commands",
+    hook: useToggleCustomFields,
+  });
+
+  // Register a static command using useCommand
+  useCommand({
+    name: "block-developer-cookbook/great-success",
+    label: __("Great Success!"),
+    icon: starFilled,
+    callback: ({ close }) => {
+      // Call this to close the command palette
+      close();
+      // Do something!
+      window.confetti({
+        particleCount: 100,
+        fullscreen: true,
+        spread: 170,
+        origin: { y: 0.6 },
+      });
+    },
+  });
+
+  return null; // The component doesn't need to render anything visually
+};
+
+export default function DynamicCommands() {
+  console.log("🔍 Registering DynamicCommands plugin...");
+  registerPlugin("dev-blog-command-palette-dynamic-commands", {
+    render: Render,
+  });
+};
+
+/**
+ * Hook to be used to load dynamic commands.
+ */
+function useToggleCustomFields() {
+  const { isViewable, hasCustomFields, isSiteEditor } = useSelect((select) => {
+    const postType = select(editorStore).getCurrentPostType();
+    const postTypeObject = select(coreStore).getPostType(postType);
+    return {
+      isViewable: postTypeObject?.viewable,
+      hasCustomFields: postTypeObject?.supports?.["custom-fields"] === true,
+      isSiteEditor: select("core/edit-site")?.getEditorMode()?.length > 0,
+    };
+  }, []);
+  const commands = [];
+
+  if (isViewable && hasCustomFields && !isSiteEditor) {
+    commands.push({
+      name: "block-developer-cookbook/toggle-custom-fields",
+      label: __("Show or hide Custom Fields"),
+      icon: replace,
+      callback: ({ close }) => {
+        const customFieldsForm = document.getElementById(
+          "toggle-custom-fields-form"
+        );
+
+        // Ensure the referrer values is up to update with any
+        customFieldsForm
+          .querySelector('[name="_wp_http_referer"]')
+          .setAttribute("value", getPathAndQueryString(window.location.href));
+
+        customFieldsForm.submit();
+        close();
+      },
+    });
+  }
+
+  return {
+    commands,
+    isLoading: false,
+  };
+}
