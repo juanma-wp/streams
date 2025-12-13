@@ -12,6 +12,7 @@ https://github.com/wordpress-juanmaguitar/streams/discussions/2
 
 ## Streams 2025
 
+- [2025-12-12 - AI Experiments Plugin](2025/2025-12-12/README.md) (English)
 - [2025-12-05 - API de la Paleta de Comandos](2025/2025-12-05/README.md) (Spanish)
 - [2025-10-31 - DataViews y DataForm](2025/2025-10-31/README.md) (English)
 - [2025-10-24 - DataViews y DataForm](2025/2025-10-24/README.md) (Spanish)
