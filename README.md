@@ -14,6 +14,10 @@ https://github.com/wordpress-juanmaguitar/streams/discussions/2
 
 - [2025-12-12 - AI Experiments Plugin](2025/2025-12-12/README.md) (English)
 - [2025-12-05 - API de la Paleta de Comandos](2025/2025-12-05/README.md) (Spanish)
+- [2025-11-28 - Interactivity Router](2025/2025-11-28/README.md) (English)
+- [2025-11-21 - What's new for Devs in Wp 6.9: Interactivity API](2025/2025-11-21/README.md) (English)
+- [2025-11-14 - What's new for Devs in Wp 6.9: Block Bindings](2025/2025-11-14/README.md) (English)
+- [2025-11-05 - Contribuyendo a WordPress Core y Gutenberg](2025/2025-11-05/README.md) (Spanish)
 - [2025-10-31 - DataViews y DataForm](2025/2025-10-31/README.md) (English)
 - [2025-10-24 - DataViews y DataForm](2025/2025-10-24/README.md) (Spanish)
 - [2025-10-17 - Abilities API](2025/2025-10-17/README.md) (English)
