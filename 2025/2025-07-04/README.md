@@ -5,7 +5,7 @@
 🎥 **Watch this session on YouTube:** [WordPress Playground for Developers](https://www.youtube.com/watch?v=g5EW3vhqNpY)
 
 The project worked in this session is available at:
-https://github.com/juanma-wp/streams/tree/main/projects/playground-browser-explorations
+https://github.com/juanma-wp/streams/tree/main/projects/2025/playground-browser-explorations
 
 - https://wordpress.github.io/wordpress-playground/developers/
 - https://wordpress.github.io/wordpress-playground/guides/for-plugin-developers/

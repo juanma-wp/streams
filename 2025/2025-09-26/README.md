@@ -11,7 +11,7 @@
 - https://make.wordpress.org/core/2023/03/07/introducing-the-html-api-in-wordpress-6-2/
 - https://make.wordpress.org/core/tag/html-api/
 - https://developer.wordpress.org/news/2023/09/the-html-api-process-your-tags-not-your-pain/
-- https://github.com/juanma-wp/streams/tree/main/projects/word-switcher-core-blocks
+- https://github.com/juanma-wp/streams/tree/main/projects/2025/word-switcher-core-blocks
 - https://developer.wordpress.org/block-editor/reference-guides/interactivity-api/
 - https://github.com/WordPress/wordpress-develop/blob/70d00508e950f0e63de82386d453bca5ad899474/src/wp-includes/html-api/class-wp-html-tag-processor.php
 - https://github.com/WordPress/wordpress-develop/blob/70d00508e950f0e63de82386d453bca5ad899474/tests/phpunit/tests/html-api/wpHtmlTagProcessor-bookmark.php

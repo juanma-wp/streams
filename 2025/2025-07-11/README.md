@@ -5,7 +5,7 @@
 🎥 **Watch this session on YouTube:** [Tests automáticos con WordPress Playground](https://youtu.be/h_nPac_MwLM)
 
 The project worked in this session is available at:
-https://github.com/juanma-wp/streams/tree/main/projects/playground-testing-demo
+https://github.com/juanma-wp/streams/tree/main/projects/2025/playground-testing-demo
 
 - https://wordpress.tv/2025/06/07/building-automated-tests-with-wordpress-playground/
 - https://bero.dev/building-automated-tests-with-wordpress-playground/

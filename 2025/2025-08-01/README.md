@@ -5,7 +5,7 @@
 🎥 **Watch this session on YouTube:** [WordPress Coding Standards](https://www.youtube.com/live/vEu1R0XLrJQ?si=Q53P6LKh0rVFKe1k)
 
 The project worked in this session is available at:
-https://github.com/juanma-wp/streams/tree/main/projects/wpcs-experiments
+https://github.com/juanma-wp/streams/tree/main/projects/2025/wpcs-experiments
 
 - https://excalidraw.com/#json=Z1L-wm-TMW3XWXEU9OFd8,4kYSjpYN2XmgagfqLHeZew
 - https://github.com/WordPress/WordPress-Coding-Standards

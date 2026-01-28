@@ -9,7 +9,7 @@
 - https://developer.wordpress.org/block-editor/reference-guides/data/
 
 Code of project worked in the session is available at:
-https://github.com/juanma-wp/streams/tree/main/projects/wp-data-layer-app-pages
+https://github.com/juanma-wp/streams/tree/main/projects/2025/wp-data-layer-app-pages
 
 ---
 

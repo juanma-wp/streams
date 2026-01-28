@@ -6,7 +6,7 @@
 🎥 **Watch this session on YouTube:** [API de la Paleta de Comandos](https://www.youtube.com/live/NBgjuckTQcw?si=iMtdTFy95ZcS5OBE)
 
 El proyecto trabajado en esta sesión está disponible aqui:
-https://github.com/juanma-wp/streams/tree/main/projects/command-palette-stream
+https://github.com/juanma-wp/streams/tree/main/projects/2025/command-palette-stream
 
 
 Aquí tienes **la lista de todos los recursos compartidos** en la sesión:

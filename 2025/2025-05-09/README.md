@@ -10,4 +10,4 @@
 - https://developer.wordpress.org/block-editor/getting-started/fundamentals/block-wrapper/
 
 The code worked in the session is available at:
-https://github.com/juanma-wp/streams/tree/main/projects/copyright-date-block-with-tests
+https://github.com/juanma-wp/streams/tree/main/projects/2025/copyright-date-block-with-tests

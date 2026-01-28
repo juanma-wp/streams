@@ -6,7 +6,7 @@
 🎥 **Watch this session on YouTube:** [Abilities API](https://www.youtube.com/live/m19VM2yIbHU?si=SPlZiVTm1qab-pg9)
 
 The project worked in this session is available at:
-https://github.com/juanma-wp/streams/tree/main/projects/test-stream-abilities-api
+https://github.com/juanma-wp/streams/tree/main/projects/2025/test-stream-abilities-api
 
 
 ```json

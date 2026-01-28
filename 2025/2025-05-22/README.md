@@ -15,4 +15,4 @@
 - https://github.com/WordPress/gutenberg/blob/80a371ebe73755ab4b78ae8f9624b007c9c0e50d/packages/block-library/src/quote/block.json
 
 El proyecto trabajado en esta sesión está disponible en:
-https://github.com/juanma-wp/streams/tree/main/projects/core-blocks-expansion
+https://github.com/juanma-wp/streams/tree/main/projects/2025/core-blocks-expansion

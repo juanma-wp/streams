@@ -5,7 +5,7 @@
 🎥 **Watch this session on YouTube:** [Unit Tests vs Integration Tests with PHPUnit in WordPress](https://www.youtube.com/live/FmxrcvKBpJ8?si=q2v37iFNapyqg5B0)
 
 The project worked in this session is available at:
-https://github.com/juanma-wp/streams/tree/main/projects/my-awesome-plugin-with-tests
+https://github.com/juanma-wp/streams/tree/main/projects/2025/my-awesome-plugin-with-tests
 
 - https://excalidraw.com/#json=jQv4lMrwP3KQVACBbkBGa,yjhVwL05AQs6R-Y-MKp6ew
 - https://wordpress.com/blog/2025/07/31/introduction-to-wordpress-plugin-development/

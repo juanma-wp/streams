@@ -7,4 +7,4 @@
 - https://excalidraw.com/#json=9W-aT-_jWk66rJkR-70Vt,wA3LNpOP838tgsud60kgFg
 
 The code worked in the session is available at:
-https://github.com/juanma-wp/streams/tree/main/projects/word-switcher-core-blocks
+https://github.com/juanma-wp/streams/tree/main/projects/2025/word-switcher-core-blocks

@@ -6,7 +6,7 @@
 🎥 Watch this session on YouTube: [PHP AI Client SDK](https://youtube.com/live/lNAh5B0xh6I)
 
 The project worked in the session is available at:
-https://github.com/juanma-wp/streams/tree/main/projects/php-ai-client-demo-stream
+https://github.com/juanma-wp/streams/tree/main/projects/2026/php-ai-client-demo-stream
 
 ---
 

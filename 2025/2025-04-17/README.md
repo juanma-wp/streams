@@ -20,4 +20,4 @@
 -
 
 El código del proyecto trabajado en la sesión está disponible en:
-https://github.com/juanma-wp/streams/tree/main/projects/word-switcher
+https://github.com/juanma-wp/streams/tree/main/projects/2025/word-switcher

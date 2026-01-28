@@ -6,7 +6,7 @@
 🎥 Watch this session on YouTube: [Parte 1](https://youtube.com/live/ZsjskytitXM) y [**Parte 2**](https://youtube.com/live/X2KyadDvh5k)
 
 The project worked in the session is available at:
-https://github.com/juanma-wp/streams/tree/main/projects/skills-in-action-stream
+https://github.com/juanma-wp/streams/tree/main/projects/2026/skills-in-action-stream
 
 ---
 

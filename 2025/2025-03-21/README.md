@@ -26,7 +26,7 @@ Los recursos utlizados en la sesión son:
 El código de los proyectos vistos en la sesión estan en:
 
 - JS Modules for build
-  - https://github.com/juanma-wp/streams/tree/main/projects/wp-data-layer-app-pages
-  - https://github.com/juanma-wp/streams/tree/main/projects/simple-block-build-process
+  - https://github.com/juanma-wp/streams/tree/main/projects/2025/wp-data-layer-app-pages
+  - https://github.com/juanma-wp/streams/tree/main/projects/2025/simple-block-build-process
 - Script Modules API
   - https://github.com/juanma-wp/script-modules-custom-webpack/tree/main

@@ -6,7 +6,7 @@
 🎥 **Watch this session on YouTube:** [AI Experiments Plugin](https://youtube.com/live/R4Q-yzJFpAA?feature=share)
 
 The project worked in the session is available at:
-https://github.com/juanma-wp/streams/tree/main/projects/My_Experiment
+https://github.com/juanma-wp/streams/tree/main/projects/2025/My_Experiment
 
 Here you have **a list of all the resources shared**, during the session:
 

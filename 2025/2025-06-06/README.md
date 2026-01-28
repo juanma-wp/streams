@@ -7,7 +7,7 @@
 https://wpchallenges.beehiiv.com/p/wp-challenge-1-block-development
 
 The project worked in this session is available at:
-https://github.com/juanma-wp/streams/tree/main/projects/block-category-posts
+https://github.com/juanma-wp/streams/tree/main/projects/2025/block-category-posts
 
 - https://excalidraw.com/#json=tt-SNiwZ0V5vYfal9nsX0,A4FOLsnYqwdIQt9AccQKhQ
 - https://developer.wordpress.com/studio/

@@ -5,7 +5,7 @@
 🎥 **Watch this session on YouTube:** [Unit Tests with PHPUnit](https://www.youtube.com/live/MEcumw0sb6Y?si=FXZbYSmtvDVoY8fa)
 
 The project worked in this session is available at:
-https://github.com/juanma-wp/streams/tree/main/projects/my-awesome-plugin-with-tests
+https://github.com/juanma-wp/streams/tree/main/projects/2025/my-awesome-plugin-with-tests
 
 
 - https://wordpress.com/blog/2025/07/31/introduction-to-wordpress-plugin-development/

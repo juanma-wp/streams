@@ -6,7 +6,7 @@
 🎥 **Watch this session on YouTube:** [DataViews y DataForm](https://www.youtube.com/live/lWhm_e9mjeI?si=AL6CgudFUwQrhis7)
 
 The project worked in this session is available at:
-https://github.com/juanma-wp/streams/tree/main/projects/devblog-dataviews-plugin
+https://github.com/juanma-wp/streams/tree/main/projects/2025/devblog-dataviews-plugin
 
 
 - https://wordpress.github.io/gutenberg/?path=/docs/dataviews-dataviews--docs
