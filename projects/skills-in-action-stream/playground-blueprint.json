@@ -1,0 +1,152 @@
+{
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "features": {
+    "networking": true
+  },
+  "landingPage": "/wp-admin/",
+  "login": true,
+  "steps": [
+    {
+      "step": "mkdir",
+      "path": "/wordpress/wp-content/plugins/php-version-ability"
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/plugins/php-version-ability/php-version-ability.php",
+      "data": "<?php\n/**\n * Plugin Name: PHP Version Ability\n * Plugin URI: https://example.com/php-version-ability\n * Description: Registers an ability that returns the PHP version running on the WordPress instance\n * Version: 1.0.0\n * Author: Your Name\n * Author URI: https://example.com\n * License: GPL v2 or later\n * License URI: https://www.gnu.org/licenses/gpl-2.0.html\n * Text Domain: php-version-ability\n */\n\n// Exit if accessed directly\nif ( ! defined( 'ABSPATH' ) ) {\n\texit;\n}\n\n/**\n * Register the ability category for system information\n */\nfunction php_version_ability_register_category() {\n\twp_register_ability_category(\n\t\t'system-info',\n\t\tarray(\n\t\t\t'label'       => __( 'System Information', 'php-version-ability' ),\n\t\t\t'description' => __( 'Information about the server and system environment', 'php-version-ability' ),\n\t\t)\n\t);\n}\nadd_action( 'wp_abilities_api_categories_init', 'php_version_ability_register_category' );\n\n/**\n * Register the PHP version ability\n */\nfunction php_version_ability_register() {\n\twp_register_ability(\n\t\t'system-info/php-version',\n\t\tarray(\n\t\t\t'label'       => __( 'PHP Version', 'php-version-ability' ),\n\t\t\t'description' => __( 'The version of PHP running on this WordPress instance', 'php-version-ability' ),\n\t\t\t'category'    => 'system-info',\n\t\t\t'callback'    => 'php_version_ability_get_version',\n\t\t\t'meta'        => array(\n\t\t\t\t'readonly'      => true,\n\t\t\t\t'show_in_rest'  => true,\n\t\t\t),\n\t\t)\n\t);\n}\nadd_action( 'wp_abilities_api_init', 'php_version_ability_register' );\n\n/**\n * Get the current PHP version\n *\n * @return string The PHP version string\n */\nfunction php_version_ability_get_version() {\n\treturn phpversion();\n}\n"
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "php-version-ability/php-version-ability.php"
+    },
+    {
+      "step": "login",
+      "username": "admin",
+      "password": "password"
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "permalink_structure": "/%category%/%postname%/"
+      }
+    },
+    {
+      "step": "runWpInstallationWizard",
+      "options": {
+        "adminUsername": "admin",
+        "adminPassword": "password"
+      }
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp term create category Sports --slug=sports --porcelain"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp term create category Music --slug=music --porcelain"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Breaking: Local Team Wins Championship' --post_content='This is a sample post about sports. The local team secured a historic victory in the championship finals, bringing home the trophy after an intense season of competitive play.' --post_status=publish --post_category=sports"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='New Album Release: Artist of the Year' --post_content='This is a sample post about music. The highly anticipated album from this years breakout artist has finally dropped, featuring collaborations with industry legends.' --post_status=publish --post_category=music"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Top 10 Athletes of the Year' --post_content='This is a sample post about sports. We count down the most impressive athletic performances and achievements from the past twelve months.' --post_status=publish --post_category=sports"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Concert Tour Dates Announced' --post_content='This is a sample post about music. The international tour schedule has been revealed, with stops in major cities across North America and Europe.' --post_status=publish --post_category=music"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Olympic Games Preview 2026' --post_content='This is a sample post about sports. An early look at the athletes and events to watch as the world prepares for the upcoming Olympic Games.' --post_status=publish --post_category=sports"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Behind the Scenes: Studio Sessions' --post_content='This is a sample post about music. An exclusive glimpse into the creative process as artists craft their next chart-topping hits in the recording studio.' --post_status=publish --post_category=music"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Football Season Kickoff Analysis' --post_content='This is a sample post about sports. Expert analysis and predictions as teams take the field for the opening games of the new football season.' --post_status=publish --post_category=sports"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Top Music Streaming Trends' --post_content='This is a sample post about music. Examining the latest data on what listeners are playing, discovering, and sharing across streaming platforms.' --post_status=publish --post_category=music"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Basketball Finals Recap' --post_content='This is a sample post about sports. A comprehensive review of the thrilling championship series that kept fans on the edge of their seats.' --post_status=publish --post_category=sports"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Grammy Awards Predictions' --post_content='This is a sample post about music. Our expert panel weighs in on who will take home the gold gramophone at this years prestigious awards ceremony.' --post_status=publish --post_category=music"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Tennis Star Makes Comeback' --post_content='This is a sample post about sports. After months of recovery and rehabilitation, a beloved tennis champion returns to competitive play.' --post_status=publish --post_category=sports"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Indie Music Scene Spotlight' --post_content='This is a sample post about music. Discovering the underground artists and venues that are shaping the future of independent music.' --post_status=publish --post_category=music"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Baseball Spring Training Updates' --post_content='This is a sample post about sports. Early reports from spring training camps as teams prepare for the upcoming baseball season.' --post_status=publish --post_category=sports"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Classical Music Festival Review' --post_content='This is a sample post about music. Highlights from the annual classical music festival featuring world-renowned orchestras and soloists.' --post_status=publish --post_category=music"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Swimming World Records Broken' --post_content='This is a sample post about sports. Multiple world records fell at the international swimming championships as athletes pushed the boundaries of human performance.' --post_status=publish --post_category=sports"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Hip Hop Evolution Documentary' --post_content='This is a sample post about music. A deep dive into the history and cultural impact of hip hop music from its origins to the present day.' --post_status=publish --post_category=music"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Marathon Training Tips' --post_content='This is a sample post about sports. Essential advice and training strategies from professional coaches to help you prepare for your first marathon.' --post_status=publish --post_category=sports"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Rock Band Reunion Tour' --post_content='This is a sample post about music. Legendary rock band announces reunion tour after a decade-long hiatus, promising an unforgettable live experience.' --post_status=publish --post_category=music"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Soccer Transfer News' --post_content='This is a sample post about sports. Breaking updates on player transfers and contract negotiations as the transfer window reaches its climax.' --post_status=publish --post_category=sports"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Jazz Festival Lineup Revealed' --post_content='This is a sample post about music. The complete artist lineup for this summers premier jazz festival showcases both legendary performers and rising stars.' --post_status=publish --post_category=music"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Hockey Playoff Predictions' --post_content='This is a sample post about sports. Analyzing the playoff bracket and predicting which teams have the best shot at winning the championship.' --post_status=publish --post_category=sports"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Electronic Music Production Guide' --post_content='This is a sample post about music. A comprehensive tutorial for aspiring producers covering essential techniques and tools for creating electronic music.' --post_status=publish --post_category=music"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Golf Tournament Highlights' --post_content='This is a sample post about sports. Recap of the most memorable moments and shots from this weekends professional golf tournament.' --post_status=publish --post_category=sports"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Country Music Rising Stars' --post_content='This is a sample post about music. Meet the new generation of country artists bringing fresh sounds and perspectives to the genre.' --post_status=publish --post_category=music"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_title='Cycling Race Coverage' --post_content='This is a sample post about sports. Live updates and analysis from the multi-stage cycling race featuring the worlds top professional cyclists.' --post_status=publish --post_category=sports"
+    }
+  ]
+}

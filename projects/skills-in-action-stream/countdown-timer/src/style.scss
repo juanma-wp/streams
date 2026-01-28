@@ -1,0 +1,70 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-countdown-timer {
+	font-family: system-ui, -apple-system, sans-serif;
+	padding: 2em;
+	text-align: center;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	border-radius: 12px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+	.countdown-timer__display {
+
+		.countdown-timer__time {
+			font-size: 3em;
+			font-weight: 700;
+			color: #fff;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+			letter-spacing: 0.05em;
+			margin: 0;
+		}
+
+		.countdown-timer__message {
+			font-size: 1.5em;
+			font-weight: 700;
+			color: #ffd700;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+			margin-top: 1em;
+			animation: pulse 1s ease-in-out infinite;
+		}
+	}
+
+	// Editor preview styling
+	.countdown-timer-preview {
+
+		p {
+			margin: 0.5em 0;
+			color: #fff;
+		}
+
+		.countdown-display {
+			font-size: 2em;
+			font-weight: 700;
+			letter-spacing: 0.05em;
+		}
+
+		.countdown-info {
+			font-size: 0.9em;
+			opacity: 0.9;
+		}
+	}
+}
+
+@keyframes pulse {
+
+	0%,
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	50% {
+		opacity: 0.8;
+		transform: scale(1.05);
+	}
+}

@@ -10,6 +10,11 @@ https://www.youtube.com/playlist?list=PLIp4ychuQI3RkEMD-mefeCBh1gW-HMrBq
 Hay abierta también la siguiente discusión abierta para recopilar ideas para los Streams:
 https://github.com/wordpress-juanmaguitar/streams/discussions/2
 
+## Streams 2026
+
+- [2026-01-23 PHP AI Client SDK](2026/2026-01-23/README.md) (English)
+- [2026-01-12 Agent Skills para Desarrollo con WordPress](2026/2026-01-12/README.md) (Spanish)
+
 ## Streams 2025
 
 - [2025-12-12 - AI Experiments Plugin](2025/2025-12-12/README.md) (English)
