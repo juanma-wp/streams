@@ -12,6 +12,7 @@ https://github.com/wordpress-juanmaguitar/streams/discussions/2
 
 ## Streams 2026
 
+- [2026-01-30 Camino a WordPress 7.0](2026/2026-01-30/README.md) (Spanish)
 - [2026-01-23 PHP AI Client SDK](2026/2026-01-23/README.md) (English)
 - [2026-01-12 Agent Skills para Desarrollo con WordPress](2026/2026-01-12/README.md) (Spanish)
 
