@@ -23,3 +23,4 @@ Recursos utilizados en la sesión:
 - https://make.wordpress.org/
 - https://make.wordpress.org/chat/
 - https://github.com/orgs/WordPress/projects/271/views/1
+- [Collaborative Editing iteration for WordPress 7.0](https://github.com/WordPress/gutenberg/issues/74549)

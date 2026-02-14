@@ -1,0 +1,39 @@
+# Logs
+*.log
+mcp-adapter.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Dependencies
+node_modules/
+vendor/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# WordPress (when applicable)
+wp-config.local.php
+wp-content/uploads/
+wp-content/cache/
+*.sql
+*.sql.gz
+
+# Build / cache
+*.cache
+.cache/
+dist/
+build/
+
+# Optional: uncomment if .mcp.json contains local/sensitive config
+# .mcp.json

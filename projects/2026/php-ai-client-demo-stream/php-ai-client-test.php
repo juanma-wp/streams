@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: PHP AI Client Test
+ * Plugin Name: WP AI Client Test
  * Description: Basic test plugin for WordPress/wp-ai-client package
  * Version: 1.0.0
  * Requires PHP: 8.1
@@ -33,8 +33,15 @@ function wp_ai_sdk_demo_init() {
 	}
 }
 
+add_action(
+	'admin_enqueue_scripts',
+	static function () {
+		wp_enqueue_script( 'wp-ai-client' );
+	}
+);
+
 function wp_ai_sdk_demo_text_generate() {
-	$text = \WordPress\AI_Client\AI_Client::prompt( 'Random description of a WordPress plugin.' )->generate_text();
+	$text = \WordPress\AI_Client\AI_Client::prompt( 'Lyrics of a pop song about WordPress.' )->generate_text();
 	return $text;
 }
 
@@ -46,7 +53,7 @@ function wp_ai_sdk_demo_text_generate() {
 function wp_ai_sdk_demo_image_generate() {
 	// Generate the image using AI Client SDK.
 	// Image generation can take 45-90+ seconds, so we need a longer timeout than the default 30s.
-	$image = \WordPress\AI_Client\AI_Client::prompt( 'A beautiful WordPress logo for a haiku about WordPress' )
+	$image = \WordPress\AI_Client\AI_Client::prompt( 'An image of a streamer doing a live stream about WordPress on a Friday afternoon.' )
 		->using_request_options(
 			\WordPress\AiClient\Providers\Http\DTO\RequestOptions::fromArray(
 				array(

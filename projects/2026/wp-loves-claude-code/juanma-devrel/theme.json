@@ -1,0 +1,310 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"useRootPaddingAwareAlignments": true,
+		"layout": {
+			"contentSize": "72rem",
+			"wideSize": "72rem"
+		},
+		"spacing": {
+			"units": ["px", "em", "rem", "vh", "vw", "%"],
+			"spacingScale": {
+				"steps": 0
+			},
+			"spacingSizes": [
+				{
+					"name": "X-Small",
+					"slug": "x-small",
+					"size": "0.5rem"
+				},
+				{
+					"name": "Small",
+					"slug": "small",
+					"size": "1rem"
+				},
+				{
+					"name": "Medium",
+					"slug": "medium",
+					"size": "1.5rem"
+				},
+				{
+					"name": "Large",
+					"slug": "large",
+					"size": "2rem"
+				},
+				{
+					"name": "X-Large",
+					"slug": "x-large",
+					"size": "3rem"
+				},
+				{
+					"name": "2X-Large",
+					"slug": "2-x-large",
+					"size": "5rem"
+				}
+			]
+		},
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"defaultDuotone": false,
+			"palette": [
+				{
+					"slug": "white",
+					"color": "#ffffff",
+					"name": "White"
+				},
+				{
+					"slug": "black",
+					"color": "#000000",
+					"name": "Black"
+				},
+				{
+					"slug": "zinc-50",
+					"color": "#fafafa",
+					"name": "Zinc 50"
+				},
+				{
+					"slug": "zinc-100",
+					"color": "#f4f4f5",
+					"name": "Zinc 100"
+				},
+				{
+					"slug": "zinc-200",
+					"color": "#e4e4e7",
+					"name": "Zinc 200"
+				},
+				{
+					"slug": "zinc-300",
+					"color": "#d4d4d8",
+					"name": "Zinc 300"
+				},
+				{
+					"slug": "zinc-400",
+					"color": "#a1a1aa",
+					"name": "Zinc 400"
+				},
+				{
+					"slug": "zinc-500",
+					"color": "#71717a",
+					"name": "Zinc 500"
+				},
+				{
+					"slug": "zinc-600",
+					"color": "#52525b",
+					"name": "Zinc 600"
+				},
+				{
+					"slug": "zinc-900",
+					"color": "#18181b",
+					"name": "Zinc 900"
+				},
+				{
+					"slug": "emerald-400",
+					"color": "#34d399",
+					"name": "Emerald 400"
+				},
+				{
+					"slug": "emerald-500",
+					"color": "#10b981",
+					"name": "Emerald 500"
+				},
+				{
+					"slug": "blue-600",
+					"color": "#2563eb",
+					"name": "Blue 600"
+				}
+			]
+		},
+		"typography": {
+			"defaultFontSizes": false,
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system"
+				},
+				{
+					"fontFamily": "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+					"name": "Inter",
+					"slug": "inter",
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontWeight": "300 600",
+							"fontStyle": "normal",
+							"src": ["https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"]
+						}
+					]
+				}
+			],
+			"fontSizes": [
+				{
+					"slug": "x-small",
+					"size": "0.75rem",
+					"name": "Extra Small"
+				},
+				{
+					"slug": "small",
+					"size": "0.875rem",
+					"name": "Small"
+				},
+				{
+					"slug": "medium",
+					"size": "1rem",
+					"name": "Medium"
+				},
+				{
+					"slug": "large",
+					"size": "1.125rem",
+					"name": "Large"
+				},
+				{
+					"slug": "x-large",
+					"size": "1.5rem",
+					"name": "Extra Large"
+				},
+				{
+					"slug": "2-x-large",
+					"size": "2.25rem",
+					"name": "2X Large"
+				},
+				{
+					"slug": "3-x-large",
+					"size": "3rem",
+					"name": "3X Large"
+				}
+			],
+			"fontWeight": true,
+			"lineHeight": true,
+			"letterSpacing": true
+		},
+		"border": {
+			"color": true,
+			"radius": true,
+			"style": true,
+			"width": true
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--white)",
+			"text": "var(--wp--preset--color--zinc-900)"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--inter)",
+			"fontSize": "var(--wp--preset--font-size--medium)",
+			"lineHeight": "1.6",
+			"fontWeight": "400"
+		},
+		"spacing": {
+			"padding": {
+				"top": "0",
+				"right": "1.5rem",
+				"bottom": "0",
+				"left": "1.5rem"
+			}
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--zinc-900)"
+				},
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--zinc-600)"
+					}
+				},
+				"typography": {
+					"textDecoration": "none"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontWeight": "600",
+					"lineHeight": "1.2"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontSize": "3rem",
+					"fontWeight": "500",
+					"lineHeight": "1.1"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "1.5rem",
+					"fontWeight": "600",
+					"lineHeight": "1.2"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "1.125rem",
+					"fontWeight": "600",
+					"lineHeight": "1.3"
+				}
+			},
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--zinc-900)",
+					"text": "var(--wp--preset--color--white)"
+				},
+				"border": {
+					"radius": "0.5rem"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontWeight": "500"
+				},
+				"spacing": {
+					"padding": {
+						"top": "0.625rem",
+						"right": "1.5rem",
+						"bottom": "0.625rem",
+						"left": "1.5rem"
+					}
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--zinc-600)"
+					}
+				}
+			}
+		},
+		"blocks": {
+			"core/navigation": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--3-x-large)",
+					"fontWeight": "500",
+					"lineHeight": "1.1"
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontWeight": "600",
+					"textTransform": "uppercase",
+					"letterSpacing": "-0.05em"
+				},
+				"elements": {
+					"link": {
+						":hover": {
+							"color": {
+								"text": "var(--wp--preset--color--zinc-600)"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
