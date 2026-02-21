@@ -12,6 +12,7 @@ https://github.com/wordpress-juanmaguitar/streams/discussions/2
 
 ## Streams 2026
 
+- [2026-02-20 Road to WordPress: Beta 1](2026/2026-02-20/README.md) (English)
 - [2026-02-13 WordPress desde Claude Code](2026/2026-02-13/README.md) (Spanish)
 - [2026-02-06 Road to WordPress 7.0: Upcoming AI features](2026/2026-02-06/README.md) (English)
 - [2026-01-30 Camino a WordPress 7.0](2026/2026-01-30/README.md) (Spanish)
