@@ -9,6 +9,8 @@
 
 Recursos utilizados en la sesión:
 
+- https://excalidraw.com/#json=wwKLENKzXYDFKh3n429V9,LYQEL3oIXT5hyPeXC0xj1Q
+
 - [WordPress 7.0 RoadMap](https://make.wordpress.org/core/7-0/)
 - [WordPress 7.0 Beta 1](https://wordpress.org/news/2026/02/wordpress-7-0-beta-1/)
 - [Commits on `wordpress-develop` on Feb 20th](https://github.com/WordPress/wordpress-develop/commits/trunk/?since=2026-02-20&until=2026-02-20)
